@@ -1,1 +1,12 @@
 /* font-family: "Raleway", sans-serif; */
+viewport {
+    width: device-width;
+}
+body {
+    width: 725px;
+    margin: auto;
+}
+img {
+    width: 500px;
+    align-items: center;
+}
