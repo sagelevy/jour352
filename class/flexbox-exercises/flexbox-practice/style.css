@@ -1,6 +1,9 @@
 .container {
     border: solid white 7px;
     min-height: 200px;
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
 }
 .pinkbar {
     background-color: #f5c6d6;
@@ -10,19 +13,19 @@
 .pinkbox {
     background-color: #ee2e84;
     height: 200px;
-    width: 277px;
+    width: 290px;
     display: inline-block;
 }
 .bluebar {
     background-color: #85cfd8;
     height: 200px;
-    width: 598px;
+    width: 593px;
     display: inline-block;
 }
 .greenbar {
     background-color: #8dc63f;
     height: 200px;
-    width: 850px;
+    width: 885px;
     display: inline-block;
 }
 .orangebox {
