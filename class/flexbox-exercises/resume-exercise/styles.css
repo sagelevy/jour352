@@ -2,6 +2,7 @@ body {
 	max-width: 800px;
 	margin: 20px auto;
 	font-family: "Noto Serif", serif;
+	display: Flexbox;
 
 	/*
     font-family: 'Noto Serif', serif;
@@ -52,11 +53,13 @@ h1 {
 .center-top-content {
 	width: 65%;
 	margin: 0 auto;
+	justify-content: flex-start;
 }
 
 .main-content {
 	width: 80%;
 	margin: 0 auto;
+	justify-content: flex-start;
 }
 
 .highlight {
@@ -68,6 +71,7 @@ h1 {
 
 .introduction {
 	line-height: 1.6;
+	justify-content: flex-start;
 }
 
 h2 {
@@ -111,4 +115,7 @@ img {
 
 	/* To fix alignment */
 	margin-top: 20px;
+}
+@media only screen and (min-width: 600px) {
+
 }
